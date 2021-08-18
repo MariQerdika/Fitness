@@ -1,15 +1,44 @@
 .header {
-
     background-image: linear-gradient( rgba(181,228,235,0.801), 
-    rgba(0,0,0,0.82)), url(../images/bg5.jpg);
+    rgba(0,0,0,0.9)), url(../images/bg5.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;;
 
     &__container {
-        position: relative;
+        display: flex;
+        justify-content: space-between;
     }
     &__logo img {
-        height: 80px;
+        height: 8rem;
+    }
+}
+
+.heading-h1 {
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 1rem;
+    backface-visibility: hidden;
+
+    &__main {
+        display: block;
+        font-size: 6rem;
+        margin-bottom: 2rem;
+        animation-name: moveInLeft;   
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+    }
+
+    &__sub {
+        display: block;
+        font-size: 4rem;  
+        animation-name: moveInRight;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
     }
 }
