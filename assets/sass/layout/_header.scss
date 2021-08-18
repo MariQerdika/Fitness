@@ -30,7 +30,7 @@
         font-size: 4rem;
         margin-bottom: 2rem;
         animation-name: moveInLeft;   
-        animation-duration: 2s;
+        animation-duration: 3s;
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
     }
 
@@ -38,7 +38,7 @@
         display: block;
         font-size: 4rem;  
         animation-name: moveInRight; 
-        animation-duration: 2s; 
+        animation-duration: 3s; 
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
     }
 }
