@@ -1,6 +1,14 @@
 .header {
-    position: relative;
-background-color: yellow;
+
+    background-image: linear-gradient( rgba(181,228,235,0.801), 
+    rgba(0,0,0,0.82)), url(../images/bg5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;;
+
+    &__container {
+        position: relative;
+    }
     &__logo img {
         height: 80px;
     }

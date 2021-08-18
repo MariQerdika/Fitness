@@ -6,12 +6,13 @@
 html {
   font-size: 62.5%; }
 
-body {
-  background-color: grey; }
-
 .header {
-  position: relative;
-  background-color: yellow; }
+  background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.82)), url(../images/bg5.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  .header__container {
+    position: relative; }
   .header__logo img {
     height: 80px; }
 
@@ -38,7 +39,7 @@ body {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
-  background: red; }
+  background: #00000099; }
 
 .navigation__list {
   position: absolute;
