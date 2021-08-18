@@ -1,0 +1,22 @@
+{
+  "name": "fitness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariQerdika/Fitness.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariQerdika/Fitness/issues"
+  },
+  "homepage": "https://github.com/MariQerdika/Fitness#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
