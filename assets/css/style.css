@@ -21,6 +21,18 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 900px) {
+    html {
+      font-size: 60%; } }
+  @media (max-width: 600px) {
+    html {
+      font-size: 40%; } }
+  @media (min-width: 1800px) {
+    html {
+      font-size: 75%; } }
 
 .scrollDown {
   position: absolute;
@@ -28,8 +40,8 @@ html {
   left: 50%; }
   .scrollDown__span {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     border-bottom: 2px solid #2ebdcd;
     border-right: 2px solid #2ebdcd;
     animation: scrollDown 2s  infinite;
@@ -38,12 +50,12 @@ html {
 @keyframes scrollDown {
   0% {
     opacity: 0;
-    transform: rotate(45deg) translate(-10px, -10px); }
+    transform: rotate(45deg) translate(-1rem, -1rem); }
   50% {
     opacity: 1; }
   100% {
     opacity: 0;
-    transform: rotate(45deg) translate(10px, 10px); } }
+    transform: rotate(45deg) translate(1rem, 1rem); } }
 
 .switcher {
   display: block;
@@ -55,20 +67,20 @@ html {
   input[type='checkbox']:checked ~ .switcher__check {
     background-color: #2ebdcd; }
   input[type='checkbox']:checked ~ .switcher__check .switcher__ball {
-    transform: translateX(20px); }
+    transform: translateX(2rem); }
   .switcher__check {
     position: relative;
     display: block;
-    width: 42px;
-    height: 20px;
+    width: 4rem;
+    height: 2rem;
     background-color: #f6777e;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 2rem;
     overflow: hidden;
     border: 1px solid #fff; }
   .switcher__ball {
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
     background: #fff;
     display: block;
     position: absolute;
@@ -122,13 +134,13 @@ body.dark .header {
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
 
 .navigation {
-  width: 6rem;
+  width: 3rem;
   height: 7rem;
   position: relative; }
   .navigation__checkbox {
     display: none; }
   .navigation__button {
-    width: 6rem;
+    width: 3rem;
     height: 6rem;
     position: absolute;
     top: 0;
