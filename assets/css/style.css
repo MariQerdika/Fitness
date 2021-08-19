@@ -22,16 +22,56 @@
 html {
   font-size: 62.5%; }
 
+.switcher {
+  display: block;
+  margin-right: 5rem; }
+  .switcher input[type='checkbox'] {
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none; }
+  input[type='checkbox']:checked ~ .switcher__check {
+    background-color: #1f1f0a; }
+  input[type='checkbox']:checked ~ .switcher__check .switcher__ball {
+    transform: translateX(20px); }
+  .switcher__check {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 20px;
+    background-color: #260a8a;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #fff; }
+  .switcher__ball {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    margin: 2px;
+    transition: .5s; }
+
+body.dark .heading-h1__main, body.dark .heading-h1__sub {
+  color: #c1c348; }
+
+body.dark .header {
+  background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg); }
+
 .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center; }
   .header__container {
-    display: flex;
-    justify-content: space-between; }
+    display: flex; }
   .header__logo img {
     height: 8rem; }
+  .header__right {
+    display: flex;
+    margin-left: auto;
+    align-items: center; }
 
 .heading-h1 {
   color: #fff;
@@ -59,7 +99,7 @@ html {
 
 .navigation {
   width: 6rem;
-  height: 6rem;
+  height: 7rem;
   position: relative; }
   .navigation__checkbox {
     display: none; }

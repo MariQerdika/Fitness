@@ -8,10 +8,14 @@
 
     &__container {
         display: flex;
-        justify-content: space-between;
     }
     &__logo img {
         height: 8rem;
+    }
+    &__right {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
     }
 }
 
