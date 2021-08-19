@@ -82,6 +82,9 @@ body.dark .heading-h1__main, body.dark .heading-h1__sub {
 body.dark .header {
   background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg); }
 
+body.dark .navigation__icon, body.dark .navigation__icon::before, body.dark .navigation__icon::after {
+  background-color: #c1c348; }
+
 .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
   height: 100vh;

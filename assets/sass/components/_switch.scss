@@ -44,3 +44,10 @@ body.dark .header {
     background-image: linear-gradient( rgba(63,66,26,0.80), 
     rgba(0,0,0,0.9)), url(../images/bg5.jpg);
 }
+body.dark .navigation {
+    &__icon,
+    &__icon::before, 
+    &__icon::after {
+        background-color: #c1c348;
+    }
+}
