@@ -97,6 +97,7 @@ html {
     margin: 1rem;
     list-style-type: none; }
   .navigation__link {
+    position: relative;
     display: inline-block;
     font-size: 3rem;
     font-weight: 300;
@@ -105,8 +106,34 @@ html {
     text-transform: uppercase;
     text-decoration: none;
     transition: .5s; }
+    .navigation__link::before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 80%;
+      left: 0;
+      background-color: #75E6DA;
+      width: 0;
+      height: 5px;
+      transition: all .5s; }
+    .navigation__link::after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 80%;
+      right: 0;
+      background-color: #189AB4;
+      width: 0;
+      height: 5px;
+      transition: all .5s; }
+    .navigation__link:hover::before {
+      width: 50%;
+      transform: translateX(100%); }
+    .navigation__link:hover::after {
+      width: 50%;
+      transform: translateX(-100%); }
     .navigation__link:hover {
-      color: green; }
+      color: #05445E; }
   .navigation__checkbox:checked ~ .navigation__nav {
     opacity: 1;
     width: 100%; }
