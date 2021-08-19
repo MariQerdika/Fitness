@@ -4,6 +4,7 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+    padding-top: 2rem;
    
 
     &__container {
@@ -41,7 +42,7 @@
 
     &__sub {
         display: block;
-        font-size: 4rem;  
+        font-size: 3rem;  
         animation-name: moveInRight; 
         animation-duration: 3s; 
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);

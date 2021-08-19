@@ -8,7 +8,7 @@
         display: none;
     }
     input[type='checkbox']:checked ~ &__check {
-        background-color:  rgb(31, 31, 10); 
+        background-color:  #2ebdcd;
     }
     input[type='checkbox']:checked ~ &__check &__ball {
         transform: translateX(20px);
@@ -18,7 +18,7 @@
         display: block;
         width: 42px;
         height: 20px;
-        background-color: #260a8a;
+        background-color: #f6777e;
         cursor: pointer;
         border-radius: 20px;
         overflow: hidden;      

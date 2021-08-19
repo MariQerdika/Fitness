@@ -30,8 +30,8 @@ html {
     display: block;
     width: 20px;
     height: 20px;
-    border-bottom: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-bottom: 2px solid #2ebdcd;
+    border-right: 2px solid #2ebdcd;
     animation: scrollDown 2s  infinite;
     margin: -5px; }
 
@@ -53,7 +53,7 @@ html {
     visibility: hidden;
     display: none; }
   input[type='checkbox']:checked ~ .switcher__check {
-    background-color: #1f1f0a; }
+    background-color: #2ebdcd; }
   input[type='checkbox']:checked ~ .switcher__check .switcher__ball {
     transform: translateX(20px); }
   .switcher__check {
@@ -61,7 +61,7 @@ html {
     display: block;
     width: 42px;
     height: 20px;
-    background-color: #260a8a;
+    background-color: #f6777e;
     cursor: pointer;
     border-radius: 20px;
     overflow: hidden;
@@ -86,7 +86,8 @@ body.dark .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
   height: 100vh;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  padding-top: 2rem; }
   .header__container {
     display: flex; }
   .header__logo img {
@@ -115,7 +116,7 @@ body.dark .header {
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
   .heading-h1__sub {
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     animation-name: moveInRight;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
@@ -196,7 +197,7 @@ body.dark .header {
       width: 50%;
       transform: translateX(-100%); }
     .navigation__link:hover {
-      color: #05445E; }
+      color: #f6777e; }
   .navigation__checkbox:checked ~ .navigation__nav {
     opacity: 1;
     width: 100%; }
