@@ -5,6 +5,12 @@
     background-size: cover;
     background-position: center;
     padding-top: 2rem;
+    position: relative;
+
+    @media (max-width: 575.98px) { 
+        height: 80vh;
+       
+     }
    
 
     &__container {
