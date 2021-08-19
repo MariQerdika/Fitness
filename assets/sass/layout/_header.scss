@@ -12,6 +12,10 @@
     }
     &__logo img {
         height: 8rem;
+
+        @media (max-width: 767.98px) { 
+            height: 6rem;
+         }
     }
     &__right {
         display: flex;
@@ -38,6 +42,13 @@
         animation-name: moveInLeft;   
         animation-duration: 3s;
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+        @media (max-width: 767.98px) { 
+            font-size: 3rem;
+         }
+         @media (max-width: 575.98px) { 
+            font-size: 2rem;
+         }
     }
 
     &__sub {
@@ -46,5 +57,12 @@
         animation-name: moveInRight; 
         animation-duration: 3s; 
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+        @media (max-width: 767.98px) { 
+            font-size: 2rem;
+         }
+         @media (max-width: 575.98px) { 
+            font-size: 1.6rem;
+         }
     }
 }
