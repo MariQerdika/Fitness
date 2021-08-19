@@ -89,9 +89,6 @@ body.dark .header {
   background-position: center;
   padding-top: 2rem;
   position: relative; }
-  @media (max-width: 575.98px) {
-    .header {
-      height: 70vh; } }
   .header__container {
     display: flex; }
   .header__logo img {
