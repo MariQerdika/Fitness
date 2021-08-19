@@ -115,6 +115,9 @@ body.dark .header {
   letter-spacing: 1rem;
   backface-visibility: hidden;
   width: 100%; }
+  @media (max-width: 767.98px) {
+    .heading-h1 {
+      letter-spacing: 3px; } }
   .heading-h1__main {
     display: block;
     font-size: 4rem;
