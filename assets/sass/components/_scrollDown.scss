@@ -1,0 +1,30 @@
+.scrollDown {
+    position: absolute;
+    bottom: 10rem;
+    left: 50%;
+
+    &__span {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        animation: scrollDown 2s  infinite;
+        margin: -5px;  
+    }
+
+}
+
+@keyframes scrollDown {
+    0% {  
+        opacity: 0;
+        transform: rotate(45deg) translate(-10px, -10px); 
+    }
+    50% {
+        opacity: 1;
+    } 
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+}
