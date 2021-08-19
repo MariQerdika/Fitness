@@ -177,15 +177,12 @@ body.dark .navigation__icon, body.dark .navigation__icon::before, body.dark .nav
     width: 100%;
     padding: 0;
     display: none; }
-  .navigation__item {
-    margin: 1rem;
-    list-style-type: none; }
   .navigation__link {
     position: relative;
     display: inline-block;
     font-size: 3rem;
     font-weight: 500;
-    padding: 2rem;
+    padding: 1rem 2rem;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
