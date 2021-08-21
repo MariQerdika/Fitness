@@ -1,0 +1,11 @@
+.join {
+
+    &__section{
+    background: linear-gradient(
+105deg
+, #2f2f2f 0%, #2f2f2f 50%, rgba(255, 255, 255, 0) 50%), url(../images/bg5.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 60rem;
+}
+}
