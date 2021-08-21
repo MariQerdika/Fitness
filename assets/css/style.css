@@ -56,7 +56,7 @@ html {
     visibility: hidden;
     display: none; }
   input[type='checkbox']:checked ~ .switcher__check {
-    background-color: #2ebdcd; }
+    background-color: #f6777e; }
   input[type='checkbox']:checked ~ .switcher__check .switcher__ball {
     transform: translateX(2rem); }
   .switcher__check {
@@ -64,7 +64,7 @@ html {
     display: block;
     width: 4rem;
     height: 2rem;
-    background-color: #f6777e;
+    background-color: #2ebdcd;
     cursor: pointer;
     border-radius: 2rem;
     overflow: hidden;
@@ -88,6 +88,43 @@ body.dark .header {
 body.dark .navigation__icon, body.dark .navigation__icon::before, body.dark .navigation__icon::after {
   background-color: #c1c348; }
 
+body.dark h5.classes__header {
+  background-color: #f6777e; }
+
+.classes {
+  padding: 20rem 0;
+  background-color: #F4F5FA; }
+  .classes__block {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden; }
+    @media (max-width: 1199.98px) {
+      .classes__block {
+        margin-bottom: 2rem; } }
+  .classes__block:hover .classes__header {
+    height: 100%; }
+  .classes__img {
+    width: 100%; }
+  .classes__header {
+    position: absolute;
+    bottom: 0;
+    height: 9rem;
+    background-color: rgba(46, 189, 205, 0.9);
+    display: block;
+    margin: 0;
+    padding: 2rem;
+    color: #fff;
+    width: 100%;
+    transition: .5s; }
+  .classes__heading--primary {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px; }
+  .classes__heading--sub {
+    display: inline-block;
+    padding-bottom: 4rem; }
+
 .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
   height: 100vh;
@@ -95,6 +132,26 @@ body.dark .navigation__icon, body.dark .navigation__icon::before, body.dark .nav
   background-position: center;
   padding-top: 2rem;
   position: relative; }
+  .header::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 200px;
+    background-image: url("../images/dot-dark.png");
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 10%;
+    left: 0; }
+  .header::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 200px;
+    background-image: url("../images/dot-white.png");
+    background-repeat: repeat;
+    position: absolute;
+    right: 0;
+    top: 10%; }
   .header__container {
     display: flex; }
   .header__logo img {

@@ -8,7 +8,7 @@
         display: none;
     }
     input[type='checkbox']:checked ~ &__check {
-        background-color:  #2ebdcd;
+        background-color:  $color-primary-red;
     }
     input[type='checkbox']:checked ~ &__check &__ball {
         transform: translateX(2rem);
@@ -18,7 +18,7 @@
         display: block;
         width: 4rem;
         height: 2rem;
-        background-color: #f6777e;
+        background-color:  $color-primary-blue;
         cursor: pointer;
         border-radius: 2rem;
         overflow: hidden;      
@@ -50,4 +50,9 @@ body.dark .navigation {
     &__icon::after {
         background-color: #c1c348;
     }
+}
+
+
+body.dark h5.classes__header {
+    background-color: $color-primary-red;
 }
