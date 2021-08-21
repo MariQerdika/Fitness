@@ -98,13 +98,23 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(255, 255, 255, 0) 50%), url(../images/bg5.jpg);
   background-size: 100%;
   background-attachment: fixed;
-  height: 50rem; }
+  background-size: cover;
+  background-position: center; }
+  @media (max-width: 1199.98px) {
+    .join__section {
+      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg); } }
 
 .join__left--div {
   width: 50%;
   text-align: center;
   color: #fff;
-  padding: 5rem 10rem; }
+  padding: 10rem; }
+  @media (max-width: 1199.98px) {
+    .join__left--div {
+      width: 100%; } }
+  @media (max-width: 899.98px) {
+    .join__left--div {
+      padding: 10rem 3rem; } }
 
 .join__title--pry {
   text-transform: uppercase;
