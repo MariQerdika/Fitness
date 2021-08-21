@@ -89,10 +89,12 @@ body.dark .navigation__icon, body.dark .navigation__icon::before, body.dark .nav
   background-color: #c1c348; }
 
 body.dark h5.classes__header {
+  background-color: rgba(246, 119, 126, 0.9); }
+
+body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   background-color: #f6777e; }
 
 .classes {
-  padding: 20rem 0;
   background-color: #F4F5FA; }
   .classes__block {
     position: relative;
@@ -302,3 +304,32 @@ body.dark h5.classes__header {
   .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
     top: 0;
     transform: rotate(-135deg); }
+
+section {
+  padding: 15rem 0 20rem; }
+
+.m-header {
+  text-align: center;
+  padding-bottom: 5rem; }
+  .m-header__basic {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative; }
+    .m-header__basic::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 3px;
+      left: -50px;
+      background-color: #2ebdcd;
+      top: 50%; }
+    .m-header__basic::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 3px;
+      right: -50px;
+      background-color: #2ebdcd;
+      top: 50%; }

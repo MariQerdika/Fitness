@@ -1,0 +1,36 @@
+
+section {
+    padding: 15rem 0 20rem;
+}
+.m-header {
+    text-align: center;
+    padding-bottom: 5rem;
+
+    &__basic {
+       
+        text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+    
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            left: -50px;
+            background-color: $color-primary-blue;
+            top: 50%;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            right: -50px;
+            background-color: $color-primary-blue;
+            top: 50%;
+        }
+    }
+}

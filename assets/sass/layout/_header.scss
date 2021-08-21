@@ -7,28 +7,28 @@
     padding-top: 2rem;
     position: relative;
 
-    &::after {
-        content:"";
-        display: block;
-        width: 120px;
-        height: 200px;
-        background-image: url("../images/dot-dark.png");
-        background-repeat: repeat;
-        position: absolute;
-        bottom: 10%;
-        left: 0;
-    }
-    &::before {
-        content:"";
-        display: block;
-        width: 120px;
-        height: 200px;
-        background-image: url("../images/dot-white.png");
-        background-repeat: repeat;
-        position: absolute;
-        right: 0;
-        top: 10%;
-    }
+    // &::after {
+    //     content:"";
+    //     display: block;
+    //     width: 120px;
+    //     height: 200px;
+    //     background-image: url("../images/dot-dark.png");
+    //     background-repeat: repeat;
+    //     position: absolute;
+    //     bottom: 10%;
+    //     left: 0;
+    // }
+    // &::before {
+    //     content:"";
+    //     display: block;
+    //     width: 120px;
+    //     height: 200px;
+    //     background-image: url("../images/dot-white.png");
+    //     background-repeat: repeat;
+    //     position: absolute;
+    //     right: 0;
+    //     top: 10%;
+    // }
 
     &__container {
         display: flex;
