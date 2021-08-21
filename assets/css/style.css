@@ -94,6 +94,12 @@ body.dark h5.classes__header {
 body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   background-color: #f6777e; }
 
+.join__section {
+  background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(255, 255, 255, 0) 50%), url(../images/bg5.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  height: 60rem; }
+
 .classes {
   background-color: #F4F5FA; }
   .classes__block {
@@ -134,26 +140,6 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   background-position: center;
   padding-top: 2rem;
   position: relative; }
-  .header::after {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 200px;
-    background-image: url("../images/dot-dark.png");
-    background-repeat: repeat;
-    position: absolute;
-    bottom: 10%;
-    left: 0; }
-  .header::before {
-    content: "";
-    display: block;
-    width: 120px;
-    height: 200px;
-    background-image: url("../images/dot-white.png");
-    background-repeat: repeat;
-    position: absolute;
-    right: 0;
-    top: 10%; }
   .header__container {
     display: flex; }
   .header__logo img {
