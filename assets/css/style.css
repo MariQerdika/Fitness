@@ -22,6 +22,9 @@
 html {
   font-size: 62.5%; }
 
+body {
+  font-family: 'Poppins'; }
+
 .scrollDown {
   position: absolute;
   bottom: 10rem;
@@ -200,7 +203,8 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   background-size: cover;
   background-position: center;
   padding-top: 2rem;
-  position: relative; }
+  position: relative;
+  font-family: 'Bebas Neue'; }
   .header__container {
     display: flex; }
   .header__logo img {
@@ -357,11 +361,13 @@ section {
 
 .m-header {
   text-align: center;
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  font-family: 'Bebas Neue'; }
   .m-header__basic {
     text-transform: uppercase;
     display: inline-block;
-    position: relative; }
+    position: relative;
+    font-size: 3rem !important; }
     .m-header__basic::before {
       content: "";
       position: absolute;

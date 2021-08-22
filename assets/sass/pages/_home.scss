@@ -5,12 +5,15 @@ section {
 .m-header {
     text-align: center;
     padding-bottom: 5rem;
+    font-family: 'Bebas Neue';
+   
 
     &__basic {
        
         text-transform: uppercase;
         display: inline-block;
         position: relative;
+        font-size: 3rem !important;
     
         &::before {
             content: "";
