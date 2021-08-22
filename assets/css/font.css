@@ -22,6 +22,20 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Merienda';
+    src: url('../fonts/Merienda-Bold.eot');
+    src: url('Merienda-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Merienda-Bold.woff2') format('woff2'),
+        url('../fonts/Merienda-Bold.woff') format('woff'),
+        url('../fonts/Merienda-Bold.ttf') format('truetype'),
+        url('../fonts/Merienda-Bold.svg#Merienda-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 

@@ -122,13 +122,15 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
 .join__title--pry {
   text-transform: uppercase;
   display: block;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: 'Merienda'; }
 
 .join__title--sub {
   text-transform: uppercase;
   display: block;
   font-size: 4rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  font-family: 'Merienda'; }
 
 .join__text {
   font-size: 1.6rem;
@@ -139,7 +141,8 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   padding: 10px 10px;
   font-size: 2rem;
   text-transform: uppercase;
-  backdrop-filter: blur(10px); }
+  backdrop-filter: blur(10px);
+  font-family: 'Merienda'; }
   .join__price--button::before, .join__price--button::after {
     content: "";
     position: absolute;

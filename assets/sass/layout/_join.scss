@@ -33,12 +33,14 @@
     text-transform: uppercase;
     display: block;
     font-size: 3rem;
+    font-family: 'Merienda';
 }
 &__title--sub {   
     text-transform: uppercase;
     display: block;
     font-size: 4rem;
     margin-bottom: 2rem;
+    font-family: 'Merienda';
 }
 &__text {
     font-size: 1.6rem;
@@ -50,6 +52,7 @@
     font-size: 2rem;
     text-transform: uppercase;
     backdrop-filter: blur(10px);
+    font-family: 'Merienda';
 
     &::before, &::after {
         content: "";
