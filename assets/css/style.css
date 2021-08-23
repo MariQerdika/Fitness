@@ -306,7 +306,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
       position: absolute;
       top: 80%;
       left: 0;
-      background-color: #75E6DA;
+      background-color: #eb0f0f;
       width: 0;
       height: 5px;
       transition: all .5s; }
@@ -316,7 +316,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
       position: absolute;
       top: 80%;
       right: 0;
-      background-color: #189AB4;
+      background-color: #4b1a1d;
       width: 0;
       height: 5px;
       transition: all .5s; }
