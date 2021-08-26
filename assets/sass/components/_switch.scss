@@ -56,6 +56,6 @@ body.dark .navigation {
 body.dark h5.classes__header {
     background-color: rgba($color-primary-red, .9);
 }
-body.dark .m-header__basic::before, body.dark .m-header__basic::after,  {
+body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     background-color:  $color-primary-red;
 }
