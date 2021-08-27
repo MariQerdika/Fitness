@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <div class="container">
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    </div>
   <header class="header">
     <div class="container header__container">
     <a href="#" class="header__logo">
@@ -127,19 +134,65 @@
     <section class="join" id="join">
       <div class="m-header"><h2 class="m-header__basic">Join Now</h2></div>
       <div class="container join__section">
-        <div class="join__left--div">
-          <span class="join__title--pry">join now</span>
-          <span class="join__title--sub">from</span>
-        
-          <p class="join__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed consequatur voluptatibus alias atque iusto consequuntur enim facilis sunt excepturi, deleniti corrupti cupiditate libero laboriosam nemo repellat maxime explicabo itaque iure!</p>
-          <div class="join__price--button">$30</div>
+        <div class="row">
+          <div class="col-6">
+            <div class="book">
+              <div class="book__form">
+                  <form action="#" class="form">
+                  
+                      <div class="form__group">
+                          <input type="text" class="form__input" placeholder="Full Name" required="">
+                          <label for="" class="form__label">Full name
+                      </label></div>
+    
+                      <div class="form__group">
+                       <input type="email" class="form__input" placeholder="Email address" required="">
+                       <label for="email" class="form__label">Full name
+                   </label></div>
+                   <div class="form__group u-margin-bottom-medium">
+                       <div class="form__radio-group u-margin-bottom-medium">
+                           <input type="radio" class="form__radio-input" id="small" name="size">
+                           <label for="small" class="form__radio-label">
+                               <span class="form__radio-button"></span>
+                               One Month</label>
+                       </div>
+                   </div>
+                   <div class="form__group">
+                       <div class="form__radio-group">
+                           <input type="radio" class="form__radio-input" id="large" name="size">
+                           <label for="large" class="form__radio-label">
+                               <span class="form__radio-button"></span>
+                               One Year</label>
+                       </div>
+                   </div>
+                   <div class="form__group">
+                       <button class="btn btn--green">
+                           next step→
+                       </button>
+                   </div>
+                  </form>
+              </div>
+          </div>
+          </div>
+          <div class="col-6">
+            <div class="join__left--div">
+              <span class="join__title--pry">join now</span>
+              <span class="join__title--sub">from</span>
+            
+              <p class="join__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed consequatur voluptatibus alias atque iusto consequuntur enim facilis sunt excepturi, deleniti corrupti cupiditate libero laboriosam nemo repellat maxime explicabo itaque iure!</p>
+              <div class="join__price--button">$30</div>
+            </div>
+          </div>
+          
         </div>
+        
       </div>
+     
     </section>
   
   </main> 
-  <footer>
-  </footer>
+  
+ 
 <div class="pano-image container">
 
 <!-- <iframe width="100%" height="100%" frameborder="0" 
@@ -173,8 +226,8 @@ src="https://momento360.com/e/u/233b9b13363f4c93bee47528320d0422?utm_campaign=em
    </video>
 </div> -->
  
-
   <script src="js/main.js"></script>
+ 
 </body>
 </html>
 
