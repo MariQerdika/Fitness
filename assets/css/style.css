@@ -269,7 +269,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     opacity: 0; } }
 
 .classes {
-  background-color: #F4F5FA; }
+  background-color: #7e7e8033; }
   .classes__block {
     position: relative;
     border-radius: 5px;
@@ -300,6 +300,9 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   .classes__heading--sub {
     display: inline-block;
     padding-bottom: 4rem; }
+
+.contact {
+  background-color: #7e7e8033; }
 
 .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
