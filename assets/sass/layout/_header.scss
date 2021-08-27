@@ -70,7 +70,7 @@
         margin-bottom: 2rem;
         animation-name: moveInLeft;   
         animation-duration: 3s;
-        animation-delay: 1s;
+        animation-delay: 1.5s;
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
 
         @media (max-width: 767.98px) { 
@@ -86,7 +86,7 @@
         font-size: 3rem;  
         animation-name: moveInRight; 
         animation-duration: 3s; 
-        animation-delay: 1s;
+        animation-delay: 1.5s;
         animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
 
         @media (max-width: 767.98px) { 

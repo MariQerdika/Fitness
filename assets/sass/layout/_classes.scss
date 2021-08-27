@@ -6,6 +6,7 @@
         position: relative;
         border-radius: 5px;
         overflow: hidden;
+        height: 30rem;
 
         @media (max-width: 1199.98px) { 
             margin-bottom: 2rem;
@@ -18,8 +19,12 @@
     }
      
     &__img {
-        width: 100%;
-
+        object-fit: cover;
+        height: 100%;
+        @media (max-width: 576.98px) { 
+            height: auto;
+            width: 100%;
+          }
     }
     &__header {
         position: absolute;

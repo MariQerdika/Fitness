@@ -278,14 +278,20 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   .classes__block {
     position: relative;
     border-radius: 5px;
-    overflow: hidden; }
+    overflow: hidden;
+    height: 30rem; }
     @media (max-width: 1199.98px) {
       .classes__block {
         margin-bottom: 2rem; } }
   .classes__block:hover .classes__header {
     height: 100%; }
   .classes__img {
-    width: 100%; }
+    object-fit: cover;
+    height: 100%; }
+    @media (max-width: 576.98px) {
+      .classes__img {
+        height: auto;
+        width: 100%; } }
   .classes__header {
     position: absolute;
     bottom: 0;
@@ -349,7 +355,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     margin-bottom: 2rem;
     animation-name: moveInLeft;
     animation-duration: 3s;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__main {
@@ -359,7 +365,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     font-size: 3rem;
     animation-name: moveInRight;
     animation-duration: 3s;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__sub {
