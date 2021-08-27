@@ -466,7 +466,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     transform: rotate(-135deg); }
 
 section {
-  padding: 15rem 0 20rem; }
+  padding: 10rem 0 14rem; }
 
 .m-header {
   text-align: center;
