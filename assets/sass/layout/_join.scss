@@ -7,11 +7,11 @@
   background-size: 100%;
   background-attachment: fixed;
 
-  // @media (max-width: 1199.98px) { 
-  //     background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
-  //     background-size: cover;
-  //     background-position: center;
-  //   }
+  @media (max-width: 1199.98px) { 
+      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
+      background-size: cover;
+      background-position: center;
+    }
   
 }
 

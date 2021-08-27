@@ -208,6 +208,11 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, 0.75) 50%), url(../images/bg5.jpg);
   background-size: 100%;
   background-attachment: fixed; }
+  @media (max-width: 1199.98px) {
+    .join__section {
+      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
+      background-size: cover;
+      background-position: center; } }
 
 .join__left--div {
   text-align: center;
