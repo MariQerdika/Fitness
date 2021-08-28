@@ -30,23 +30,22 @@ body {
   --curtain-color: #f5f8f8;
   --outer-line-color: #f6777e;
   --middle-line-color: #2ebdcd;
-  --inner-line-color: #1d3557;
+  --inner-line-color: #e6e939;
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5000;
   width: 100%;
-  height: 100%;
-  z-index: 5000; }
+  height: 100%; }
 
 .loader {
   display: block;
   position: relative;
-  top: 50%;
-  left: 50%;
-  /*   transform: translate(-50%, -50%); */
   width: 100px;
   height: 100px;
-  margin: -75px 0 0 -75px;
   border: var(--line-width) solid transparent;
   border-top-color: var(--outer-line-color);
   border-radius: 100%;
@@ -355,7 +354,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     margin-bottom: 2rem;
     animation-name: moveInLeft;
     animation-duration: 3s;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__main {
@@ -365,7 +364,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     font-size: 3rem;
     animation-name: moveInRight;
     animation-duration: 3s;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__sub {
