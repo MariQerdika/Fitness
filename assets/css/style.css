@@ -313,6 +313,27 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
 
 .contact {
   background-color: #7e7e8033; }
+  .contact__col {
+    position: relative; }
+  .contact__col:hover .contact__overlay {
+    height: 0; }
+  .contact__col:hover .contact__overlay span {
+    display: none; }
+  .contact__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #303030e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s; }
+    .contact__overlay span {
+      color: #fff;
+      font-size: 2rem;
+      font-family: 'Merienda'; }
 
 .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
