@@ -334,6 +334,50 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
       color: #fff;
       font-size: 2rem;
       font-family: 'Merienda'; }
+  .contact__email {
+    position: absolute;
+    right: -100px;
+    top: 16rem;
+    width: 5rem;
+    height: 5rem;
+    background: #151515;
+    color: #fff;
+    text-align: center;
+    animation: contact 4s infinite ease-in-out; }
+  .contact__wrap {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    background: url(../images/contact-bg.jpg);
+    background-size: cover; }
+  .contact__phone {
+    position: absolute;
+    top: 5rem;
+    right: -100px;
+    width: 5rem;
+    height: 5rem;
+    background: #151515;
+    z-index: -2;
+    border-radius: 50%;
+    animation: contact 4s infinite ease-in-out; }
+  .contact__address {
+    position: absolute;
+    top: -3rem;
+    right: -90px;
+    width: 5rem;
+    height: 5rem;
+    background: #151515;
+    z-index: -3;
+    border-radius: 50%;
+    animation: contact 4s infinite ease-in-out; }
+  .contact__wrap {
+    position: relative; }
+
+@keyframes contact {
+  50% {
+    transform: translateY(-10px); }
+  100% {
+    transform: translateY(0); } }
 
 .header {
   background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
