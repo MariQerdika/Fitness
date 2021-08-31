@@ -254,6 +254,7 @@ body.dark .m-header__basic::before, body.dark .m-header__basic::after {
   margin-bottom: 6rem; }
 
 .join__price--button {
+  position: relative;
   display: inline-block;
   padding: 10px 10px;
   font-size: 2rem;
