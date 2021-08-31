@@ -9,3 +9,15 @@ html, body {
 body {
   font-family: 'Poppins';
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #9b9b9b;
+}
+::-webkit-scrollbar-thumb {
+  background: #2ebdcd;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #27a7b6;
+}
