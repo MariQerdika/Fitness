@@ -59,3 +59,10 @@ body.dark h5.classes__header {
 body.dark .m-header__basic::before, body.dark .m-header__basic::after {
     background-color:  $color-primary-red;
 }
+
+body.dark .to-top svg {
+    fill: #f37b87;
+}
+body.dark .to-top:hover svg {
+    fill: #d25663;
+}
