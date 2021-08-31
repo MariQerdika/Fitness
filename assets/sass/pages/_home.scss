@@ -56,3 +56,26 @@ padding-bottom: 10rem;
 // .bg-video__content {
 //     width: 100%;
 // }
+.to-top {
+    position: fixed;
+    right: 4rem;
+    bottom: -3rem;
+    transition: .5s;
+
+    svg {
+        width: 30px;
+        height: 30px;
+        fill: #2ebdcd;
+        transition: .5s;
+    }
+
+    &:hover svg {
+        fill: #2293a0;
+        transform: translateY(-4px);
+    }
+    
+}
+.to-top.active {
+    bottom: 4rem;
+    transition: .5s;
+}

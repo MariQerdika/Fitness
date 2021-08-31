@@ -588,3 +588,21 @@ section {
   width: 100%;
   height: 80vh;
   padding-bottom: 10rem; }
+
+.to-top {
+  position: fixed;
+  right: 4rem;
+  bottom: -3rem;
+  transition: .5s; }
+  .to-top svg {
+    width: 30px;
+    height: 30px;
+    fill: #2ebdcd;
+    transition: .5s; }
+  .to-top:hover svg {
+    fill: #2293a0;
+    transform: translateY(-4px); }
+
+.to-top.active {
+  bottom: 4rem;
+  transition: .5s; }
