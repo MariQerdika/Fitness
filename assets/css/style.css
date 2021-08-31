@@ -26,16 +26,16 @@ body {
   font-family: 'Poppins'; }
 
 ::-webkit-scrollbar {
-  width: 15px; }
+  width: 1vw; }
 
 ::-webkit-scrollbar-track {
   background: #9b9b9b; }
 
 ::-webkit-scrollbar-thumb {
-  background: #2ebdcd; }
+  background: #2ebdcd8c; }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #27a7b6; }
+  background: #2ebdcd; }
 
 .loader-wrapper {
   --line-width: 5px;
