@@ -36,33 +36,41 @@
         transition: .5s;
     }
     
-}
-body.dark .heading-h1__main, body.dark .heading-h1__sub{
-    color: #c1c348;
-}
-body.dark .header {
+} 
+
+
+body.dark  {
+    .heading-h1__main{
+        color: #c1c348;
+    }
+    .heading-h1__sub{
+        color: #c1c348;
+    }
+    .header {
     background-image: linear-gradient( rgba(63,66,26,0.80), 
     rgba(0,0,0,0.9)), url(../images/bg5.jpg);
-}
-body.dark .navigation {
-    &__icon,
-    &__icon::before, 
-    &__icon::after {
-        background-color: #c1c348;
+    }
+    .navigation 
+        &__icon,
+        &__icon::before, 
+        &__icon::after {
+            background-color: #c1c348;
+        
+    }
+    h5.classes__header {
+        background-color: rgba($color-primary-red, .9);
+    }
+    .m-header__basic::before {
+        background-color:  $color-primary-red;
+    } 
+    .m-header__basic::after {
+        background-color:  $color-primary-red;
+    }
+    .to-top svg {
+        fill: #f37b87;
+    }
+    .to-top:hover svg {
+        fill: #d25663;
     }
 }
 
-
-body.dark h5.classes__header {
-    background-color: rgba($color-primary-red, .9);
-}
-body.dark .m-header__basic::before, body.dark .m-header__basic::after {
-    background-color:  $color-primary-red;
-}
-
-body.dark .to-top svg {
-    fill: #f37b87;
-}
-body.dark .to-top:hover svg {
-    fill: #d25663;
-}

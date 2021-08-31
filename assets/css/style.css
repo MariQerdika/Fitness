@@ -200,19 +200,26 @@ body {
     margin: 2px;
     transition: .5s; }
 
-body.dark .heading-h1__main, body.dark .heading-h1__sub {
+body.dark .heading-h1__main {
+  color: #c1c348; }
+
+body.dark .heading-h1__sub {
   color: #c1c348; }
 
 body.dark .header {
   background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg); }
 
-body.dark .navigation__icon, body.dark .navigation__icon::before, body.dark .navigation__icon::after {
+.navigation
+body.dark__icon, body.dark__icon::before, body.dark__icon::after {
   background-color: #c1c348; }
 
 body.dark h5.classes__header {
   background-color: rgba(246, 119, 126, 0.9); }
 
-body.dark .m-header__basic::before, body.dark .m-header__basic::after {
+body.dark .m-header__basic::before {
+  background-color: #f6777e; }
+
+body.dark .m-header__basic::after {
   background-color: #f6777e; }
 
 body.dark .to-top svg {
@@ -296,8 +303,7 @@ body.dark .to-top:hover svg {
   .classes__block {
     position: relative;
     border-radius: 5px;
-    overflow: hidden;
-    height: 30rem; }
+    overflow: hidden; }
     @media (max-width: 1199.98px) {
       .classes__block {
         margin-bottom: 2rem; } }
@@ -305,11 +311,8 @@ body.dark .to-top:hover svg {
     height: 100%; }
   .classes__img {
     object-fit: cover;
-    height: 100%; }
-    @media (max-width: 576.98px) {
-      .classes__img {
-        height: auto;
-        width: 100%; } }
+    height: 30rem;
+    width: 100%; }
   .classes__header {
     position: absolute;
     bottom: 0;
