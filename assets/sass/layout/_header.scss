@@ -1,12 +1,17 @@
 .header {
     background-image: linear-gradient( rgba(181,228,235,0.801), 
-    rgba(0,0,0,0.9)), url(../images/bg5.jpg);
+    rgba(0,0,0,0.9)), url(../images/main-bg-large.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
     padding-top: 2rem;
     position: relative;
     font-family: 'Merienda';
+
+    @media (max-width: 991.98px) {
+        background-image: linear-gradient( rgba(181,228,235,0.801), 
+    rgba(0,0,0,0.9)), url(../images/main-bg-small.jpg);
+    }
 
     // &::after {
     //     content:"";

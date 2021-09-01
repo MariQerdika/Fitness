@@ -37,6 +37,43 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #2ebdcd; }
 
+.book__form {
+  padding: 10rem 15rem 15rem; }
+
+.form__group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form__input {
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 3px solid transparent;
+  display: block;
+  width: 100%;
+  color: #333; }
+  .form__input:focus {
+    outline: none;
+    border-bottom: 3px solid green; }
+  .form__input:focus:invalid {
+    border-color: orange; }
+  .form__input::-webkit-input-placeholder {
+    color: #8d8b8b; }
+
+.form__label {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: block;
+  color: #fff;
+  transition: all .3s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
+
 .loader-wrapper {
   --line-width: 5px;
   --curtain-color: #f5f8f8;
@@ -229,12 +266,12 @@ body.dark .to-top:hover svg {
   fill: #d25663; }
 
 .join__section {
-  background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, 0.75) 50%), url(../images/bg5.jpg);
+  background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, 0.75) 50%), url(../images/main-bg-large.jpg);
   background-size: 100%;
   background-attachment: fixed; }
   @media (max-width: 1199.98px) {
     .join__section {
-      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
+      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/main-bg-large.jpg);
       background-size: cover;
       background-position: center; } }
 
@@ -402,13 +439,16 @@ body.dark .to-top:hover svg {
     transform: translateY(0); } }
 
 .header {
-  background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg);
+  background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/main-bg-large.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
   padding-top: 2rem;
   position: relative;
   font-family: 'Merienda'; }
+  @media (max-width: 991.98px) {
+    .header {
+      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/main-bg-small.jpg); } }
   .header__container {
     display: flex; }
   .header__logo img {
