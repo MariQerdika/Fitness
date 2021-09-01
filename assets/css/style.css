@@ -39,6 +39,10 @@ body {
 
 .book__form {
   padding: 10rem 15rem 15rem; }
+  @media (max-width: 1199.98px) {
+    .book__form {
+      padding: 5rem;
+      border-bottom: 2px solid grey; } }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
