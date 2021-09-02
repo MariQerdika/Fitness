@@ -1,76 +1,71 @@
 .switcher {
+  display: block;
+  margin-right: 5rem;
+
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+  }
+  input[type="checkbox"]:checked ~ &__check {
+    background-color: $color-primary-red;
+  }
+  input[type="checkbox"]:checked ~ &__check &__ball {
+    transform: translateX(2rem);
+  }
+  &__check {
+    position: relative;
     display: block;
-    margin-right: 5rem;
+    width: 4rem;
+    height: 2rem;
+    background-color: $color-primary-blue;
+    cursor: pointer;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid #fff;
+  }
 
-    input[type='checkbox'] {
-        -webkit-appearance: none;
-        visibility: hidden;
-        display: none;
-    }
-    input[type='checkbox']:checked ~ &__check {
-        background-color:  $color-primary-red;
-    }
-    input[type='checkbox']:checked ~ &__check &__ball {
-        transform: translateX(2rem);
-    }
-    &__check {
-        position: relative;
-        display: block;
-        width: 4rem;
-        height: 2rem;
-        background-color:  $color-primary-blue;
-        cursor: pointer;
-        border-radius: 2rem;
-        overflow: hidden;      
-        border: 1px solid #fff;
-    }
-
-    &__ball {
-        width: 1.4rem;
-        height: 1.4rem;
-        background: #fff;
-        display: block;
-        position: absolute;
-        border-radius: 50%;
-        margin: 2px;
-        transition: .5s;
-    }
-    
-} 
-
-
-body.dark  {
-    .heading-h1__main{
-        color: #c1c348;
-    }
-    .heading-h1__sub{
-        color: #c1c348;
-    }
-    .header {
-    background-image: linear-gradient( rgba(63,66,26,0.80), 
-    rgba(0,0,0,0.9)), url(../images/bg5.jpg);
-    }
-    .navigation 
-        &__icon,
-        &__icon::before, 
-        &__icon::after {
-            background-color: #c1c348;
-        
-    }
-    h5.classes__header {
-        background-color: rgba($color-primary-red, .9);
-    }
-    .m-header__basic::before {
-        background-color:  $color-primary-red;
-    } 
-    .m-header__basic::after {
-        background-color:  $color-primary-red;
-    }
-    .to-top svg {
-        fill: #f37b87;
-    }
-    .to-top:hover svg {
-        fill: #d25663;
-    }
+  &__ball {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: #fff;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    margin: 2px;
+    transition: 0.5s;
+  }
 }
 
+body.dark {
+  .heading-h1__main {
+    color: #fa5d01;
+  }
+  .heading-h1__sub {
+    color: #fa5d01;
+  }
+  .header {
+    background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)),
+      url(../images/main-bg-large.jpg);
+  }
+  .navigation &__icon,
+  &__icon::before,
+  &__icon::after {
+    background-color: #c1c348;
+  }
+  h5.classes__header {
+    background-color: rgba($color-primary-red, 0.9);
+  }
+  .m-header__basic::before {
+    background-color: $color-primary-red;
+  }
+  .m-header__basic::after {
+    background-color: $color-primary-red;
+  }
+  .to-top svg {
+    fill: #f37b87;
+  }
+  .to-top:hover svg {
+    fill: #d25663;
+  }
+}
