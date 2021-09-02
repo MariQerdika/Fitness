@@ -1,13 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html, body {
-    font-size: 62.5%;  // 1rem = 10px
+html,
+body {
+  font-size: 62.5%; // 1rem = 10px
+}
+@media (max-width: 1199.98px) {
+  html {
+    font-size: 56.25%;
+  }
 }
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 ::-webkit-scrollbar {
   width: 1vw;
@@ -21,4 +27,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #2ebdcd;
 }
-

@@ -1,104 +1,108 @@
 .header {
-    background-image: linear-gradient( rgba(181,228,235,0.801), 
-    rgba(0,0,0,0.9)), url(../images/main-bg-large.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    padding-top: 2rem;
-    position: relative;
-    font-family: 'Merienda';
+  background-image: linear-gradient(
+      rgba(181, 228, 235, 0.801),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../images/main-bg-large.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 2rem;
+  position: relative;
+  font-family: "Merienda";
 
-    @media (max-width: 991.98px) {
-        background-image: linear-gradient( rgba(181,228,235,0.801), 
-    rgba(0,0,0,0.9)), url(../images/main-bg-small.jpg);
-    }
+  @media (max-width: 991.98px) {
+    background-image: linear-gradient(
+        rgba(181, 228, 235, 0.801),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url(../images/main-bg-small.jpg);
+  }
 
-    // &::after {
-    //     content:"";
-    //     display: block;
-    //     width: 120px;
-    //     height: 200px;
-    //     background-image: url("../images/dot-dark.png");
-    //     background-repeat: repeat;
-    //     position: absolute;
-    //     bottom: 10%;
-    //     left: 0;
-    // }
-    // &::before {
-    //     content:"";
-    //     display: block;
-    //     width: 120px;
-    //     height: 200px;
-    //     background-image: url("../images/dot-white.png");
-    //     background-repeat: repeat;
-    //     position: absolute;
-    //     right: 0;
-    //     top: 10%;
-    // }
+  // &::after {
+  //     content:"";
+  //     display: block;
+  //     width: 120px;
+  //     height: 200px;
+  //     background-image: url("../images/dot-dark.png");
+  //     background-repeat: repeat;
+  //     position: absolute;
+  //     bottom: 10%;
+  //     left: 0;
+  // }
+  // &::before {
+  //     content:"";
+  //     display: block;
+  //     width: 120px;
+  //     height: 200px;
+  //     background-image: url("../images/dot-white.png");
+  //     background-repeat: repeat;
+  //     position: absolute;
+  //     right: 0;
+  //     top: 10%;
+  // }
 
-    &__container {
-        display: flex;
-    }
-    &__logo img {
-        height: 8rem;
+  &__container {
+    display: flex;
+  }
+  &__logo img {
+    height: 8rem;
 
-        @media (max-width: 767.98px) { 
-            height: 6rem;
-         }
+    @media (max-width: 767.98px) {
+      height: 6rem;
     }
-    &__right {
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-    }
+  }
+  &__right {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
 }
 
 .heading-h1 {
-    color: #fff;
-    text-transform: uppercase;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    letter-spacing: 1rem;
-    backface-visibility: hidden;
-    width: 50%;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 1rem;
+  backface-visibility: hidden;
+  width: 50%;
 
-    @media (max-width: 767.98px) { 
-       letter-spacing: 3px;
-     }
+  @media (max-width: 767.98px) {
+    letter-spacing: 3px;
+  }
 
-    &__main {
-        display: block;
-        font-size: 4rem;
-        margin-bottom: 2rem;
-        animation-name: moveInLeft;   
-        animation-duration: 3s;
-        animation-delay: 2s;
-        animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  &__main {
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6);
 
-        @media (max-width: 767.98px) { 
-            font-size: 3rem;
-         }
-         @media (max-width: 575.98px) { 
-           
-         }
+    @media (max-width: 767.98px) {
+      font-size: 3rem;
     }
-
-    &__sub {
-        display: block;
-        font-size: 3rem;  
-        animation-name: moveInRight; 
-        animation-duration: 3s; 
-        animation-delay: 2s;
-        animation-timing-function:  cubic-bezier(0.68, -0.6, 0.32, 1.6);
-
-        @media (max-width: 767.98px) { 
-            font-size: 2rem;
-         }
-         @media (max-width: 575.98px) { 
-          
-         }
+    @media (max-width: 575.98px) {
     }
+  }
+
+  &__sub {
+    display: block;
+    font-size: 3rem;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+    @media (max-width: 767.98px) {
+      font-size: 2rem;
+    }
+    @media (max-width: 575.98px) {
+    }
+  }
 }

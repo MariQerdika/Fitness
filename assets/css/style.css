@@ -19,11 +19,16 @@
   padding: 0;
   box-sizing: border-box; }
 
-html, body {
+html,
+body {
   font-size: 62.5%; }
 
+@media (max-width: 1199.98px) {
+  html {
+    font-size: 56.25%; } }
+
 body {
-  font-family: 'Poppins'; }
+  font-family: "Poppins"; }
 
 ::-webkit-scrollbar {
   width: 1vw; }
@@ -133,7 +138,7 @@ body {
 .loader-wrapper {
   --line-width: 5px;
   --curtain-color: #f5f8f8;
-  --outer-line-color: #f6777e;
+  --outer-line-color: #fa5d01;
   --middle-line-color: #2ebdcd;
   --inner-line-color: #e6e939;
   position: fixed;
@@ -234,7 +239,7 @@ body {
 .loaded .loader-wrapper {
   visibility: hidden;
   transform: translateY(-100%);
-  transition: all .3s 1s ease-out; }
+  transition: all 0.3s 1s ease-out; }
 
 .scrollDown {
   position: absolute;
@@ -516,7 +521,7 @@ body.dark .form__input:focus:invalid {
   background-position: center;
   padding-top: 2rem;
   position: relative;
-  font-family: 'Merienda'; }
+  font-family: "Merienda"; }
   @media (max-width: 991.98px) {
     .header {
       background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/main-bg-small.jpg); } }
