@@ -265,13 +265,13 @@ body {
 .switcher {
   display: block;
   margin-right: 5rem; }
-  .switcher input[type='checkbox'] {
+  .switcher input[type="checkbox"] {
     -webkit-appearance: none;
     visibility: hidden;
     display: none; }
-  input[type='checkbox']:checked ~ .switcher__check {
+  input[type="checkbox"]:checked ~ .switcher__check {
     background-color: #f6777e; }
-  input[type='checkbox']:checked ~ .switcher__check .switcher__ball {
+  input[type="checkbox"]:checked ~ .switcher__check .switcher__ball {
     transform: translateX(2rem); }
   .switcher__check {
     position: relative;
@@ -291,19 +291,18 @@ body {
     position: absolute;
     border-radius: 50%;
     margin: 2px;
-    transition: .5s; }
+    transition: 0.5s; }
 
 body.dark .heading-h1__main {
-  color: #c1c348; }
+  color: #fa5d01; }
 
 body.dark .heading-h1__sub {
-  color: #c1c348; }
+  color: #fa5d01; }
 
 body.dark .header {
-  background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)), url(../images/bg5.jpg); }
+  background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)), url(../images/main-bg-large.jpg); }
 
-.navigation
-body.dark__icon, body.dark__icon::before, body.dark__icon::after {
+.navigation body.dark__icon, body.dark__icon::before, body.dark__icon::after {
   background-color: #c1c348; }
 
 body.dark h5.classes__header {
