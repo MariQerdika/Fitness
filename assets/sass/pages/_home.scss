@@ -78,3 +78,14 @@ section {
   bottom: 4rem;
   transition: 0.5s;
 }
+.footer {
+  &__top-section {
+    height: 15rem;
+    background-color: #2f2f2fcc;
+  }
+
+  &__bottom-section {
+    background-color: #185961;
+    height: 5rem;
+  }
+}
