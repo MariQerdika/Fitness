@@ -346,6 +346,12 @@ body.dark .navigation__icon::before,
 body.dark .navigation__icon::after {
   background-color: #2ebdcd; }
 
+body.dark .footer__link svg {
+  fill: #fa5d01; }
+
+body.dark .footer {
+  border-bottom: 15px solid #ad470c; }
+
 .join__section {
   background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, 0.75) 50%), url(../images/main-bg-large.jpg);
   background-size: 100%;

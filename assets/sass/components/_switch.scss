@@ -89,4 +89,10 @@ body.dark {
   .navigation__icon::after {
     background-color: $color-primary-blue;
   }
+  .footer__link svg {
+    fill: $color-primary-red;
+  }
+  .footer {
+    border-bottom: 15px solid #ad470c;
+  }
 }
