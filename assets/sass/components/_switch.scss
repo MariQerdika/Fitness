@@ -39,10 +39,10 @@
 
 body.dark {
   .heading-h1__main {
-    color: #fa5d01;
+    color: $color-primary-red;
   }
   .heading-h1__sub {
-    color: #fa5d01;
+    color: $color-primary-red;
   }
   .header {
     background-image: linear-gradient(rgba(63, 66, 26, 0.8), rgba(0, 0, 0, 0.9)),
@@ -51,10 +51,10 @@ body.dark {
   .navigation &__icon,
   &__icon::before,
   &__icon::after {
-    background-color: #c1c348;
+    background-color: $color-primary-red;
   }
   h5.classes__header {
-    background-color: rgba($color-primary-red, 0.9);
+    background-color: #2f2f2fdb;
   }
   .m-header__basic::before {
     background-color: $color-primary-red;
@@ -63,9 +63,25 @@ body.dark {
     background-color: $color-primary-red;
   }
   .to-top svg {
-    fill: #f37b87;
+    fill: $color-primary-red;
   }
   .to-top:hover svg {
-    fill: #d25663;
+    fill: $color-primary-red;
+  }
+  .join__price--button::before,
+  .join__price--button::after {
+    border: 2px solid $color-primary-red;
+  }
+  .btn--n-step {
+    border: 1px solid $color-primary-red;
+  }
+  .form__radio-button {
+    border: 3px solid $color-primary-red;
+  }
+  .form__radio-button::after {
+    background-color: $color-primary-red;
+  }
+  .form__input:focus:invalid {
+    border-color: $color-primary-red;
   }
 }
