@@ -561,7 +561,8 @@ body.dark .form__input:focus:invalid {
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__main {
-        font-size: 3rem; } }
+        font-size: 3rem;
+        width: 100%; } }
   .heading-h1__sub {
     display: block;
     font-size: 3rem;
@@ -571,7 +572,8 @@ body.dark .form__input:focus:invalid {
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__sub {
-        font-size: 2rem; } }
+        font-size: 2rem;
+        width: 100%; } }
 
 .navigation {
   width: 3rem;
@@ -684,12 +686,15 @@ section {
 .m-header {
   text-align: center;
   padding-bottom: 5rem;
-  font-family: 'Merienda'; }
+  font-family: "Merienda"; }
   .m-header__basic {
     text-transform: uppercase;
     display: inline-block;
     position: relative;
-    font-size: 3rem !important; }
+    font-size: 3rem; }
+    @media (max-width: 1199.98px) {
+      .m-header__basic {
+        font-size: 2rem; } }
     .m-header__basic::before {
       content: "";
       position: absolute;
@@ -718,16 +723,16 @@ section {
   position: fixed;
   right: 4rem;
   bottom: -3rem;
-  transition: .5s; }
+  transition: 0.5s; }
   .to-top svg {
     width: 30px;
     height: 30px;
     fill: #2ebdcd;
-    transition: .5s; }
+    transition: 0.5s; }
   .to-top:hover svg {
     fill: #2293a0;
     transform: translateY(-4px); }
 
 .to-top.active {
   bottom: 4rem;
-  transition: .5s; }
+  transition: 0.5s; }
