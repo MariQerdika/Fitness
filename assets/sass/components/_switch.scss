@@ -84,4 +84,9 @@ body.dark {
   .form__input:focus:invalid {
     border-color: $color-primary-red;
   }
+  .navigation__icon,
+  .navigation__icon::before,
+  .navigation__icon::after {
+    background-color: $color-primary-blue;
+  }
 }

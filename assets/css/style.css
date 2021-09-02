@@ -140,7 +140,7 @@ body {
   --curtain-color: #f5f8f8;
   --outer-line-color: #fa5d01;
   --middle-line-color: #2ebdcd;
-  --inner-line-color: #e6e939;
+  --inner-line-color: #fce309;
   position: fixed;
   top: 0;
   left: 0;
@@ -340,6 +340,11 @@ body.dark .form__radio-button::after {
 
 body.dark .form__input:focus:invalid {
   border-color: #fa5d01; }
+
+body.dark .navigation__icon,
+body.dark .navigation__icon::before,
+body.dark .navigation__icon::after {
+  background-color: #2ebdcd; }
 
 .join__section {
   background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, 0.75) 50%), url(../images/main-bg-large.jpg);
