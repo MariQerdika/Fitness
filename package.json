@@ -18,5 +18,8 @@
   "homepage": "https://github.com/MariQerdika/Fitness#readme",
   "devDependencies": {
     "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "swiper": "^7.0.2"
   }
 }
