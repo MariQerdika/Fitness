@@ -1,11 +1,9 @@
 @import "abstracts/mixins";
-@import "abstracts/variables"; 
-
+@import "abstracts/variables";
 
 @import "base/animations";
 @import "base/base";
 @import "base/utilities";
-
 
 @import "components/form";
 @import "components/loader";
@@ -13,13 +11,11 @@
 @import "components/scrollDown";
 @import "components/switch";
 
-
 @import "layout/join";
 @import "layout/classes";
 @import "layout/contact";
 @import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
-
-
+@import "layout/slider";
 @import "pages/home";
