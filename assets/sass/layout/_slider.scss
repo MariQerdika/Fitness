@@ -1,1 +1,38 @@
+.swiper__info {
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  width: 100%;
 
+  h4 {
+    margin-bottom: 10px;
+  }
+}
+.swiper-slide-visible.swiper-slide-active .swiper__info {
+  backdrop-filter: blur(5px);
+}
+.swiper-pagination-bullet-active {
+  background-color: #0cd7ef !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 5rem !important;
+}
+
+.swiper {
+  width: 100% !important;
+  padding-top: 10rem !important;
+  padding-bottom: 12rem !important;
+}
+
+.swiper-slide {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.swiper-slide img {
+  display: block !important;
+  width: 100% !important;
+}
