@@ -475,49 +475,44 @@ body.dark .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s; }
+    transition: 0.3s; }
     .contact__overlay span {
       color: #fff;
       font-size: 2rem;
-      font-family: 'Merienda'; }
-  .contact__email {
-    position: absolute;
-    right: -100px;
-    top: 16rem;
-    width: 5rem;
-    height: 5rem;
-    background: #151515;
-    color: #fff;
-    text-align: center;
-    animation: contact 4s infinite ease-in-out; }
+      font-family: "Merienda"; }
   .contact__wrap {
-    width: 25rem;
-    height: 25rem;
-    border-radius: 50%;
-    background: url(../images/contact-bg.jpg);
-    background-size: cover; }
-  .contact__phone {
-    position: absolute;
-    top: 5rem;
-    right: -100px;
-    width: 5rem;
-    height: 5rem;
-    background: #151515;
-    z-index: -2;
-    border-radius: 50%;
-    animation: contact 4s infinite ease-in-out; }
-  .contact__address {
-    position: absolute;
-    top: -3rem;
-    right: -90px;
-    width: 5rem;
-    height: 5rem;
-    background: #151515;
-    z-index: -3;
-    border-radius: 50%;
-    animation: contact 4s infinite ease-in-out; }
-  .contact__wrap {
-    position: relative; }
+    background-image: url(../images/dd.png), url(../images/ff.png);
+    background-position: 90% bottom, 2% 10%;
+    background-repeat: no-repeat; }
+    @media (max-width: 1199.98px) {
+      .contact__wrap {
+        margin-bottom: 30px; } }
+  .contact__content {
+    backdrop-filter: blur(3px);
+    width: 60%;
+    margin: 0 auto;
+    background-color: #72777761;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem; }
+    @media (max-width: 576.98px) {
+      .contact__content {
+        width: 100%; } }
+    .contact__content a,
+    .contact__content p {
+      display: block;
+      font-size: 1.4rem;
+      padding: 10px;
+      text-decoration: none;
+      color: #333; }
+      .contact__content a svg,
+      .contact__content p svg {
+        vertical-align: middle;
+        fill: #fa5d01;
+        width: 20px;
+        height: 20px;
+        margin-right: 15px; }
 
 @keyframes contact {
   50% {
