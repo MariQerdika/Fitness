@@ -541,15 +541,15 @@ body.dark .swiper-pagination-bullet-active {
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
-  border-bottom: 15px solid #5faeb7; }
-  @media (max-width: 576px) {
+  border-bottom: 10px solid #5faeb7; }
+  @media (max-width: 575.98px) {
     .footer {
       height: 25rem; } }
   .footer__top-section {
     padding-bottom: 40px; }
-    @media (max-width: 576px) {
+    @media (max-width: 575.98px) {
       .footer__top-section {
-        padding-bottom: 0; } }
+        padding-bottom: 10px; } }
   .footer__link svg {
     fill: #5faeb7;
     width: 20px;
@@ -567,7 +567,7 @@ body.dark .swiper-pagination-bullet-active {
     .footer__list .navigation__link {
       font-size: 1.6rem;
       padding: 1rem; }
-      @media (max-width: 576px) {
+      @media (max-width: 575.98px) {
         .footer__list .navigation__link {
           font-size: 1.4rem;
           padding: 3px 5px; } }
