@@ -11,6 +11,10 @@
 .swiper-slide-visible.swiper-slide-active .swiper__info {
   backdrop-filter: blur(5px);
 }
+.swiper-slide-visible.swiper-slide-active .swiper__info {
+  backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+}
 .swiper-pagination-bullet-active {
   background-color: #0cd7ef !important;
 }
