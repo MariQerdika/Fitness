@@ -36,6 +36,9 @@
     @media (max-width: 1199.98px) {
       margin-bottom: 30px;
     }
+    @media (max-width: 576.98px) {
+      background-image: url(../images/contact-bg-R.png);
+    }
   }
   &__content {
     backdrop-filter: blur(3px);

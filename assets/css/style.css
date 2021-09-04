@@ -352,6 +352,13 @@ body.dark .footer__link svg {
 body.dark .footer {
   border-bottom: 15px solid #ad470c; }
 
+body.dark .swiper-pagination-bullet-active {
+  background-color: #fa5d01 !important; }
+
+@media (max-width: 576.98px) {
+  .join {
+    padding-bottom: 0; } }
+
 .join__section {
   background: linear-gradient(105deg, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, 0.75) 50%), url(../images/main-bg-large.jpg);
   background-size: 100%;
@@ -377,14 +384,14 @@ body.dark .footer {
   text-transform: uppercase;
   display: block;
   font-size: 3rem;
-  font-family: 'Merienda'; }
+  font-family: "Merienda"; }
 
 .join__title--sub {
   text-transform: uppercase;
   display: block;
   font-size: 4rem;
   margin-bottom: 2rem;
-  font-family: 'Merienda'; }
+  font-family: "Merienda"; }
 
 .join__text {
   font-size: 1.6rem;
@@ -397,7 +404,7 @@ body.dark .footer {
   font-size: 2rem;
   text-transform: uppercase;
   backdrop-filter: blur(10px);
-  font-family: 'Merienda'; }
+  font-family: "Merienda"; }
   .join__price--button::before, .join__price--button::after {
     content: "";
     position: absolute;
@@ -430,7 +437,7 @@ body.dark .footer {
     overflow: hidden; }
     @media (max-width: 1199.98px) {
       .classes__block {
-        margin-bottom: 2rem; } }
+        margin-bottom: 5rem; } }
   .classes__block:hover .classes__header {
     height: 100%; }
   .classes__img {
@@ -481,12 +488,15 @@ body.dark .footer {
       font-size: 2rem;
       font-family: "Merienda"; }
   .contact__wrap {
-    background-image: url(../images/dd.png), url(../images/ff.png);
+    background-image: url(../images/contact-bg-L.png), url(../images/contact-bg-R.png);
     background-position: 90% bottom, 2% 10%;
     background-repeat: no-repeat; }
     @media (max-width: 1199.98px) {
       .contact__wrap {
         margin-bottom: 30px; } }
+    @media (max-width: 576.98px) {
+      .contact__wrap {
+        background-image: url(../images/contact-bg-R.png); } }
   .contact__content {
     backdrop-filter: blur(3px);
     width: 60%;

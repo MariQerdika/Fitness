@@ -95,4 +95,7 @@ body.dark {
   .footer {
     border-bottom: 15px solid #ad470c;
   }
+  .swiper-pagination-bullet-active {
+    background-color: $color-primary-red !important;
+  }
 }

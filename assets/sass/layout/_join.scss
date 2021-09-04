@@ -1,60 +1,69 @@
 .join {
+  @media (max-width: 576.98px) {
+    padding-bottom: 0;
+  }
+  &__section {
+    background: linear-gradient(
+        105deg,
+        #2f2f2f 0%,
+        #2f2f2f 50%,
+        rgba(48, 48, 48, 0.75) 50%
+      ),
+      url(../images/main-bg-large.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 
-  &__section{
-  background: linear-gradient(
-105deg
-, #2f2f2f 0%, #2f2f2f 50%, rgba(48, 48, 48, .75) 50%), url(../images/main-bg-large.jpg);
-  background-size: 100%;
-  background-attachment: fixed;
-
-  @media (max-width: 1199.98px) { 
-      background-image: linear-gradient(rgba(181, 228, 235, 0.801), rgba(0, 0, 0, 0.9)), url(../images/main-bg-large.jpg);
+    @media (max-width: 1199.98px) {
+      background-image: linear-gradient(
+          rgba(181, 228, 235, 0.801),
+          rgba(0, 0, 0, 0.9)
+        ),
+        url(../images/main-bg-large.jpg);
       background-size: cover;
       background-position: center;
     }
-  
-}
+  }
 
+  &__left--div {
+    text-align: center;
+    color: #fff;
+    padding: 10rem;
 
-&__left--div {
-  text-align: center;
-  color: #fff;
-  padding: 10rem;
-
-  @media (max-width: 1199.98px) { 
-     width: 100%
+    @media (max-width: 1199.98px) {
+      width: 100%;
     }
-    @media (max-width: 899.98px) { 
+    @media (max-width: 899.98px) {
       padding: 10rem 3rem;
     }
-}
-&__title--pry {
-  text-transform: uppercase;
-  display: block;
-  font-size: 3rem;
-  font-family: 'Merienda';
-}
-&__title--sub {   
-  text-transform: uppercase;
-  display: block;
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  font-family: 'Merienda';
-}
-&__text {
-  font-size: 1.6rem;
-  margin-bottom: 6rem;
-}
-&__price--button{
-  position: relative;
-  display: inline-block;
-  padding: 10px 10px;
-  font-size: 2rem;
-  text-transform: uppercase;
-  backdrop-filter: blur(10px);
-  font-family: 'Merienda';
+  }
+  &__title--pry {
+    text-transform: uppercase;
+    display: block;
+    font-size: 3rem;
+    font-family: "Merienda";
+  }
+  &__title--sub {
+    text-transform: uppercase;
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-family: "Merienda";
+  }
+  &__text {
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+  }
+  &__price--button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    backdrop-filter: blur(10px);
+    font-family: "Merienda";
 
-  &::before, &::after {
+    &::before,
+    &::after {
       content: "";
       position: absolute;
       left: -20px;
@@ -64,44 +73,24 @@
       border: 2px solid $color-primary-blue;
       border-radius: 50%;
       animation: pulsing 2s linear infinite;
-  }
-  &::after {
+    }
+    &::after {
       animation-delay: 1s;
+    }
   }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes pulsing {
   0% {
-      transform: scale(.5); 
-      opacity: 0;
+    transform: scale(0.5);
+    opacity: 0;
   }
   50% {
-      transform: scale(1); 
-      opacity: 1;
+    transform: scale(1);
+    opacity: 1;
   }
   100% {
-      transform: scale(1.2); 
-      opacity: 0;
+    transform: scale(1.2);
+    opacity: 0;
   }
 }
