@@ -16,27 +16,27 @@
   -moz-backdrop-filter: blur(5px);
 }
 .swiper-pagination-bullet-active {
-  background-color: #0cd7ef !important;
+  background-color: #0cd7ef;
 }
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: 5rem !important;
+  bottom: 5rem;
 }
 
 .swiper {
-  width: 100% !important;
-  padding-top: 10rem !important;
-  padding-bottom: 12rem !important;
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 12rem;
 }
 
 .swiper-slide {
-  width: 300px !important;
-  height: 300px !important;
+  width: 300px;
+  height: 300px;
 }
 
 .swiper-slide img {
-  display: block !important;
-  width: 100% !important;
+  display: block;
+  width: 100%;
 }
