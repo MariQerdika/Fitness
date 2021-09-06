@@ -72,4 +72,7 @@ body.dark {
   .to-top:hover svg {
     fill: #d25663;
   }
+  .footer__link:hover svg {
+    fill: $color-primary-blue;
+  }
 }
