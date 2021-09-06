@@ -6,13 +6,32 @@
     border-radius: 5px;
     overflow: hidden;
 
+
+    .btn--n-step {
+      position: absolute;
+      bottom: -5rem;
+      left: 2rem;
+      transition: .5s;
+    }
+
     @media (max-width: 1199.98px) {
       margin-bottom: 5rem;
     }
   }
-
+  @media (max-width: 1199.98px) {
+.classes__block .classes__header { 
+    height: 50%;
+}.classes__block .btn--n-step { 
+  bottom: 3rem;
+}
+}
   &__block:hover &__header {
-    height: 100%;
+    height: 50%;
+  }
+  &__block:hover .btn--n-step {
+   bottom: 3rem;
+   left: 2rem;
+   transition-delay: .3s;
   }
 
   &__img {
@@ -35,6 +54,8 @@
     color: $color-white;
     width: 100%;
     transition: 0.5s;
+
+   
   }
   &__heading--primary {
     display: block;
