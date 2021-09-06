@@ -9,8 +9,8 @@ checkbox.addEventListener('change', () => {
 
 
 // loader
-window.addEventListener('load',function(){
-document.querySelector('body').classList.add("loaded")  
+window.addEventListener('load', function () {
+    document.querySelector('body').classList.add("loaded")
 });
 // loader  --
 
@@ -28,6 +28,25 @@ window.addEventListener("scroll", () => {
 });
 // scroll to top button --
 
+
+//swiper
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+});
+//swiper --
 
 
 
