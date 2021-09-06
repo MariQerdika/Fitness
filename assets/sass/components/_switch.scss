@@ -57,9 +57,7 @@ body.dark {
   &__icon::after {
     background-color: #c1c348;
   }
-  h5.classes__header {
-    background-color: rgba($color-primary-red, 0.9);
-  }
+  
   .m-header__basic::before {
     background-color: $color-primary-red;
   }

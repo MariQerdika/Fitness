@@ -23,10 +23,14 @@
         transition: .3s;
         &:focus {
             outline: none;
-            border-bottom: 3px solid green;
+            border-image-slice: 1;
+            border-width: 3px;
+            border-image-source: linear-gradient(to left, rgb(17, 136, 23), rgb(88, 204, 11));
         }
         &:focus:invalid {
-            border-color: #17a6b3;
+            border-image-slice: 1;
+            border-width: 3px;
+            border-image-source: linear-gradient(to left, rgb(133, 38, 10), rgb(238, 148, 140));
         }
         &::-webkit-input-placeholder {
             color: #8d8b8b;
