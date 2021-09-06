@@ -104,6 +104,9 @@
     text-transform: uppercase;
     transition: .3s;
     width: 15rem;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to left, #2fecff, #ea742f);
 
     &:hover {
         color: #fff;

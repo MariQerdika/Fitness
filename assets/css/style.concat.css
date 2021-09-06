@@ -168,7 +168,10 @@ body {
   font-size: 1.4rem;
   text-transform: uppercase;
   transition: .3s;
-  width: 15rem; }
+  width: 15rem;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #2fecff, #ea742f); }
   .btn--n-step:hover {
     color: #fff; }
 
@@ -442,6 +445,9 @@ body.dark .to-top svg {
 
 body.dark .to-top:hover svg {
   fill: #d25663; }
+
+body.dark .footer__link:hover svg {
+  fill: #2ebdcd; }
 
 @media (max-width: 576.98px) {
   .join {
