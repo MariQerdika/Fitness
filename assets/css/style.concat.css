@@ -171,7 +171,7 @@ body {
   width: 15rem;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(to left, #2fecff, #ea742f); }
+  border-image-source: linear-gradient(to left, #ea742f, #2fecff); }
   .btn--n-step:hover {
     color: #fff; }
 
