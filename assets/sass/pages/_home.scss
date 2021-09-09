@@ -1,5 +1,9 @@
 section {
   padding: 10rem 0 14rem;
+
+  @media (max-width: 991.98px){
+    padding: 5rem 0 8rem;
+  }
 }
 .m-header {
   text-align: center;

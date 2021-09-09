@@ -138,7 +138,7 @@ body {
   width: 15rem;
   border-image-slice: 1;
   border-width: 1px;
-  border-image-source: linear-gradient(to left, #ea742f, #2fecff); }
+  border-image-source: linear-gradient(to left, #2f4aea, #2fecff); }
   .btn--n-step:hover {
     color: #fff; }
 
@@ -817,6 +817,66 @@ body.dark .footer__link:hover svg {
     top: 0;
     transform: rotate(-135deg); }
 
+.news .row {
+  justify-content: space-between; }
+
+.news__wrap {
+  display: inline-block;
+  background: #444444;
+  color: #fff;
+  margin-bottom: 5rem;
+  width: 45%;
+  position: relative;
+  text-align: center;
+  padding: 3rem 10rem;
+  text-decoration: none; }
+  @media (max-width: 1199.98px) {
+    .news__wrap {
+      padding: 3rem; } }
+  @media (max-width: 799.98px) {
+    .news__wrap {
+      width: 100%; } }
+
+.news__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(157, 207, 223, 0.678);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  transition: all .5s ease-in;
+  backdrop-filter: blur(3px); }
+  @media (max-width: 1365.98px) {
+    .news__overlay {
+      display: none; } }
+  .news__overlay img {
+    height: 100px; }
+
+.news__wrap:hover .news__overlay {
+  left: -15%;
+  top: 20%;
+  width: 30%;
+  height: 60%;
+  transition: all .5s ease-in; }
+
+.news__title {
+  text-transform: uppercase;
+  font-family: "Merienda";
+  margin-bottom: 2rem; }
+
+.news__text {
+  font-size: 1.4rem;
+  color: #fff; }
+
+.news__wrap:hover .news__title {
+  color: #fff; }
+
 .swiper__info {
   position: absolute;
   bottom: 0;
@@ -856,6 +916,9 @@ body.dark .footer__link:hover svg {
 
 section {
   padding: 10rem 0 14rem; }
+  @media (max-width: 991.98px) {
+    section {
+      padding: 5rem 0 8rem; } }
 
 .m-header {
   text-align: center;
