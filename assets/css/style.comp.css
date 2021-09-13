@@ -695,7 +695,6 @@ body.dark .footer__link:hover svg {
     margin-bottom: 2rem;
     animation-name: moveInLeft;
     animation-duration: 3s;
-    animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__main {
@@ -705,7 +704,6 @@ body.dark .footer__link:hover svg {
     font-size: 3rem;
     animation-name: moveInRight;
     animation-duration: 3s;
-    animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.68, -0.6, 0.32, 1.6); }
     @media (max-width: 767.98px) {
       .heading-h1__sub {
