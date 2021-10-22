@@ -1,7 +1,7 @@
 section {
   padding: 10rem 0 14rem;
 
-  @media (max-width: 991.98px){
+  @media (max-width: 991.98px) {
     padding: 5rem 0 8rem;
   }
 }
@@ -81,4 +81,5 @@ section {
 .to-top.active {
   bottom: 4rem;
   transition: 0.5s;
+  z-index: 1000;
 }
